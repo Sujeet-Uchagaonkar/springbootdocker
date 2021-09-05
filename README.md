@@ -101,3 +101,11 @@ ENTRYPOINT:
 
 As mentioned previously, this command will be used to run our JAR file. In our example, we run the file JAR which we “simply” renamed to nullbeansdockerdemo.jar along with some other jvm arguments.
   
+
+
+
+* Creating docker image & running in docker container (Execute below commands in cmd at root level of project):
+
+1.  docker build . -t dockerdemo
+
+2.  docker run dockerdemo
