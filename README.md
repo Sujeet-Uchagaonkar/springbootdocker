@@ -109,3 +109,5 @@ As mentioned previously, this command will be used to run our JAR file. In our e
 1.  docker build . -t dockerdemo
 
 2.  docker run dockerdemo
+
+3.  docker run -p 8081:8080 -t dockerdemo
